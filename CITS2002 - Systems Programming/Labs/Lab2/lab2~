@@ -1,0 +1,31 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+int main(int argc, char *argv[])
+{
+
+	if(argc < 2)
+	{
+		exit(EXIT_FAILURE);
+	}
+	else
+	{
+		int compare = 0;
+
+		for(int i = 0; i < argc; ++i)
+		{
+			int value = atoi(argv[i]);
+		
+			if(value > compare)
+			{
+				compare = value;
+			}
+		}
+
+		printf("The maximum value is %i", compare);
+
+		exit(EXIT_SUCCESS);	
+	}
+	return 0;
+}
+
