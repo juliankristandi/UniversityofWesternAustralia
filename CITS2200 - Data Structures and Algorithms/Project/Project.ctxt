@@ -1,0 +1,23 @@
+#BlueJ class context
+comment0.target=Project
+comment1.params=
+comment1.target=Project()
+comment10.params=n\ a
+comment10.target=void\ Katz(java.util.Set,\ double)
+comment2.params=fileName
+comment2.target=void\ main(java.lang.String)
+comment3.params=a\ graph\ gcheck
+comment3.target=java.util.List\ BFS(int,\ Project.Graph,\ boolean[])
+comment4.params=
+comment4.target=void\ DegreeCentrality()
+comment5.params=
+comment5.target=void\ ClosenessCentrality()
+comment6.params=n
+comment6.target=void\ Closeness(java.util.Set)
+comment7.params=
+comment7.target=void\ BetweennessCentrality()
+comment8.params=n
+comment8.target=void\ Betweenness(java.util.Set)
+comment9.params=alpha
+comment9.target=void\ KatzCentrality(double)
+numComments=11
