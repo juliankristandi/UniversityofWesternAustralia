@@ -1,0 +1,15 @@
+#BlueJ class context
+comment0.target=MancalaImp
+comment1.params=board
+comment1.target=int\ move(int[])
+comment1.text=\n\ Allows\ the\ agent\ to\ nominate\ the\ house\ the\ agent\ would\ like\ to\ move\ seeds\ from.\ \n\ The\ agent\ will\ always\ have\ control\ of\ houses\ 0-5\ with\ store\ at\ 6.\ \n\ Any\ move\ other\ than\ 0-5\ will\ result\ in\ a\ forfeit.\ \n\ A\ move\ from\ an\ empty\ house\ will\ result\ in\ a\ forfeit.\n\ A\ legal\ move\ will\ always\ be\ available.\n\ Assume\ your\ agent\ has\ 0.5\ seconds\ to\ make\ a\ move.\ \n\ @param\ board\ the\ current\ state\ of\ the\ game.\ \n\ The\ board\ is\ an\ int\ array\ of\ length\ 14,\ indicating\ the\ 12\ houses\ and\ 2\ stores.\ \n\ The\ agent's\ house\ are\ 0-5\ and\ their\ store\ is\ 6.\ The\ opponents\ houses\ are\ 7-12\ and\ their\ store\ is\ 13.\ \n\ Board[i]\ is\ the\ number\ of\ seeds\ in\ house\ (store)\ i.\n\ board[(i+1}%14]\ is\ the\ next\ house\ (store)\ anticlockwise\ from\ board[i].\ \ \n\ This\ will\ be\ consistent\ between\ moves\ of\ a\ normal\ game\ so\ the\ agent\ can\ maintain\ a\ strategy\ space.\n\ @return\ the\ house\ the\ agent\ would\ like\ to\ move\ the\ seeds\ from\ this\ turn.\n
+comment2.params=depth\ isMax\ board\ alpha\ beta
+comment2.target=int\ minimax(int,\ boolean,\ int[],\ int,\ int)
+comment2.text=\n\ Minimax\ Algorithm\ \n\ @param\ depth\ current\ depth\ of\ game\ tree\n\ @param\ isMax\ Min\ or\ Max\ player\n\ @param\ board\ the\ current\ state\ of\ the\ game\ \n\ @param\ alpha\ best\ value\ that\ Max\ can\ guarantee\ at\ that\ level\n\ @param\ beta\ best\ value\ that\ Min\ can\ guarantee\ at\ that\ level\n\ @return\ best\ score\ for\ that\ certain\ player\n
+comment3.params=
+comment3.target=java.lang.String\ name()
+comment3.text=\n\ The\ agents\ name.\n\ @return\ a\ hardcoded\ string,\ the\ name\ of\ the\ agent.\n
+comment4.params=
+comment4.target=void\ reset()
+comment4.text=\n\ A\ method\ to\ reset\ the\ agent\ for\ a\ new\ game.\n
+numComments=5

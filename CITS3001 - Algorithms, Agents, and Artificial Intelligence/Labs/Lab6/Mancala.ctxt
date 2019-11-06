@@ -1,0 +1,21 @@
+#BlueJ class context
+comment0.target=Mancala
+comment0.text=\n\ A\ static\ class\ for\ executing\ a\ game\ of\ Mancala.\n\ Mancala\ Agents\ are\ supplied\ to\ play\ the\ game.\n\ The\ Mancala\ class\ coordinate\ one\ game\ between\ the\ two\ agents\ and\ reports\ the\ result.\n\ Used\ for\ CITS301\ at\ the\ university\ of\ Western\ Australia.\n
+comment1.params=a1\ a2\ report
+comment1.target=int\ play(MancalaAgent,\ MancalaAgent,\ java.io.StringWriter)
+comment1.text=\n\ Conducts\ a\ play\ between\ agent\ 1\ andagent\ 2\ and\ reports\ \n\ the\ final\ score\ (agent1's\ score-\ agent2's\ score).\n\ If\ at\ any\ stage,\ players\ attempt\ an\ illegal\ move\ they\ forfeit\ the\ game\ 36-0.\n\ @param\ report\ a\ printstream\ to\ record\ the\ moves\ of\ the\ game\n\ @param\ a1\ an\ implementation\ of\ MancalaAgent\n\ @param\ a2\ an\ implementation\ of\ MancalaAgent\n\ @return\ the\ difference,x,\ in\ score.\ Agent\ 1\ will\ have\ 18+x/2\ points.\ Agent\ 2\ will\ have\ 18-x/2\ points.\n
+comment2.params=a1\ a2
+comment2.target=int\ play(MancalaAgent,\ MancalaAgent)
+comment2.text=\n\ Conducts\ a\ play\ between\ agent\ 1\ and\ agent\ 2\ and\ reports\ \n\ the\ final\ score\ (agent1's\ score-\ agent2's\ score).\n\ The\ Game\ log\ is\ printed\ to\ stdout\n\ @return\ the\ difference,x,\ in\ score.\ Agent\ 1\ will\ have\ 18+x/2\ points.\ Agent\ 2\ will\ have\ 18-x/2\ points.\n
+comment3.params=
+comment3.target=java.lang.String\ boardString()
+comment3.text=\n\ Produces\ a\ string\ representation\ of\ the\ game\ in\ the\ form\:\n\ \ \ \ \ \ \ \ \ \ \ \ Agent2\n\ \ \ \ 12\ \ 11\ \ 10\ \ 9\ \ \ 8\ \ \ 7\n13\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ 6\n\ \ \ \ 0\ \ \ 1\ \ \ 2\ \ \ 3\ \ \ 4\ \ \ 5\n\ \ \ \ \ \ \ \ \ \ \ \ Agent1\n
+comment4.params=
+comment4.target=boolean\ gameOver()
+comment5.params=agent
+comment5.target=void\ forfeit(int)
+comment6.params=
+comment6.target=int[]\ invertBoard()
+comment7.params=args
+comment7.target=void\ main(java.lang.String[])
+numComments=8
