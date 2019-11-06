@@ -1,0 +1,16 @@
+#BlueJ class context
+comment0.target=BinTree
+comment0.text=\r\n\ Lab\ 5\r\n\ @author\ Julian\r\n
+comment1.params=
+comment1.target=BinTree()
+comment1.text=\r\n\ Constructor\r\n
+comment2.params=item\ b1\ b2
+comment2.target=BinTree(java.lang.Object,\ CITS2200.BinaryTree,\ CITS2200.BinaryTree)
+comment2.text=\ \r\n\ Constructor\r\n\ @param\ E\ item,\ BinaryTree\ b1,\ BinaryTree\ b2\r\n
+comment3.params=x
+comment3.target=boolean\ equals(java.lang.Object)
+comment3.text=\r\n\ Override\ the\ equals\ method\ that\ all\ objects\ have\ and\ \r\n\ return\ true\ if\ both\ binary\ trees\ have\ exactly\ the\ same\ structure.\r\n\ @param\ Object\ x\r\n
+comment4.params=
+comment4.target=CITS2200.Iterator\ iterator()
+comment4.text=\r\n\ Provides\ an\ instance\ of\ CITS2200.Iterator\ that\ \r\n\ returns\ every\ element\ stored\ in\ the\ tree\ exactly\ once.\r\n
+numComments=5

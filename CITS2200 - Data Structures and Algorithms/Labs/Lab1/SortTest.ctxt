@@ -1,0 +1,17 @@
+#BlueJ class context
+comment0.target=SortTest
+comment1.params=
+comment1.target=void\ usage()
+comment1.text=Prints\ usage\ and\ terminates\ program
+comment2.params=msg
+comment2.target=void\ pperr(java.lang.String)
+comment2.text=Prints\ error\ message\ and\ terminates\ program
+comment3.params=a
+comment3.target=void\ testMain(long[])
+comment3.text=\ Method\ for\ testing\ a\ given\ array\ of\ long\ integers\ for\ debugging.\n\ \ @arg\ a\ the\ array\ of\ longs\ to\ be\ sorted.\n
+comment4.params=size
+comment4.target=void\ runMain(int)
+comment4.text=\ Method\ for\ testing\ an\ array\ of\ randomly\ generated\n\ \ long\ integers.\n\ \ @arg\ size\ the\ length\ of\ the\ array\ to\ be\ generated.\n
+comment5.params=args
+comment5.target=void\ main(java.lang.String[])
+numComments=6

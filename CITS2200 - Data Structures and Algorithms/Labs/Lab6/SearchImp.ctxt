@@ -1,0 +1,15 @@
+#BlueJ class context
+comment0.target=SearchImp
+comment0.text=\r\n\ Lab\ 6\r\n\ @author\ Julian\r\n
+comment1.params=g\ startVertex
+comment1.target=int[]\ getConnectedTree(CITS2200.Graph,\ int)
+comment1.text=\r\n\ Output\ an\ array\ specifying\ the\ parent\ vertex\ for\ each\ vertex\ \ \ \ \ \r\n\ (or\ -1\ if\ there\ is\ no\ parent),\ assuming\ a\ Breadth\ First\ Search.\r\n\ @param\ Graph\ g,\ int\ startVertex\r\n\ @return\ array\ listing\ parent\ of\ each\ vertex\ or\ -1.\r\n
+comment2.params=g\ startVertex
+comment2.target=int[]\ getDistances(CITS2200.Graph,\ int)
+comment2.text=\r\n\ Output\ an\ array\ specifying\ the\ distance\ each\ vertex\ \r\n\ is\ from\ the\ starting\ vertex,\ or\ -1\ if\ it\ is\ not\ reachable.\r\n\ @param\ Graph\ g,\ int\ startVertex\r\n\ @return\ array\ listing\ the\ distance\ of\ each\ vertex\ from\ the\ start\ or\ -1.\r\n
+comment3.params=g\ startVertex
+comment3.target=int[][]\ getTimes(CITS2200.Graph,\ int)
+comment3.text=\r\n\ Output\ start\ and\ finish\ times\ for\ each\ vertex\r\n\ @param\ Graph\ g,\ int\ startVertex\r\n\ @return\ 2D\ array\ with\ start\ and\ end\ time\r\n
+comment4.params=g\ startVertex
+comment4.target=int[][]\ DFS(CITS2200.Graph,\ int)
+numComments=5

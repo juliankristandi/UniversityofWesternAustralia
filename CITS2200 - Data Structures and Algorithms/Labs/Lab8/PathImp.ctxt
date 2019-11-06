@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.target=PathImp
+comment0.text=\r\n\ Lab\ 8\r\n\ @author\ Julian\r\n
+comment1.params=g
+comment1.target=int\ getMinSpanningTree(CITS2200.Graph)
+comment1.text=\r\n\ Finds\ the\ minimum\ weight\ of\ a\ spanning\ tree\ for\ the\ given\ graph.\r\n\ @param\ Graph\ g\ to\ be\ searched\r\n\ @return\ weight\ of\ the\ minimum\ spanning\ tree,\ else\ -1\r\n
+comment2.params=g\ source
+comment2.target=int[]\ getShortestPaths(CITS2200.Graph,\ int)
+comment2.text=\r\n\ Runs\ Dijkstra's\ algorithm\ on\ a\ given\ undirected,\ \r\n\ non-negative\ weighted\ graph\ to\ find\ the\ distances\ to\ all\ vertices\ from\ the\ specified\ source\ vertex\r\n\ @param\ Graph\ g\ to\ be\ searched\ and\ source\ the\ vertex\ to\ start\r\n\ @return\ array\ listing\ the\ distance\ to\ each\ vertex,\ else\ -1\r\n
+numComments=3

@@ -1,0 +1,22 @@
+#BlueJ class context
+comment0.target=StackBlock
+comment0.text=\r\n\ Lab\ 2\r\n\ @author\ Julian\r\n
+comment1.params=s
+comment1.target=StackBlock(int)
+comment1.text=\r\n\ Constructor\ for\ StackBlock\r\n\ @param\ s\ is\ the\ size\ of\ the\ empty\ stack\r\n
+comment2.params=
+comment2.target=boolean\ isEmpty()
+comment2.text=\r\n\ Returns\ true\ if\ the\ stack\ is\ empty,\ false\ otherwise\r\n\ @return\ whether\ the\ stack\ is\ empty\r\n
+comment3.params=
+comment3.target=boolean\ isFull()
+comment3.text=\r\n\ Returns\ true\ if\ the\ stack\ is\ full,\ false\ otherwise\r\n\ @return\ whether\ the\ stack\ is\ full\r\n
+comment4.params=x
+comment4.target=void\ push(java.lang.Object)
+comment4.text=\r\n\ push\ Object\ o\ onto\ the\ top\ of\ the\ stack,\r\n\ or\ throw\ an\ Overflow\ exception\ if\ the\ stack\ is\ full\ \r\n\ @param\ x\ is\ the\ object\ pushed\ on\ the\ stack\r\n\ @exception\ Overflow\ if\ the\ stack\ is\ full\r\n
+comment5.params=
+comment5.target=java.lang.Object\ examine()
+comment5.text=\r\n\ return\ the\ Object\ on\ top\ of\ the\ stack,\r\n\ or\ throw\ an\ Underflow\ exception\ if\ the\ stack\ is\ empty\r\n\ @return\ the\ object\ on\ top\ of\ the\ stack\r\n\ @exception\ Underflow\ if\ stack\ is\ empty\r\n
+comment6.params=
+comment6.target=java.lang.Object\ pop()
+comment6.text=\r\n\ remove\ and\ return\ the\ Object\ on\ the\ top\ of\ the\ stack,\r\n\ or\ throw\ an\ Underflow\ exception\ if\ the\ stack\ is\ empty\r\n\ @return\ the\ object\ removed\ on\ top\ of\ the\ stack\r\n\ @exception\ Underflow\ if\ stack\ is\ empty\r\n
+numComments=7

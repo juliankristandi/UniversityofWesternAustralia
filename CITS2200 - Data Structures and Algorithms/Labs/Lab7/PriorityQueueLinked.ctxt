@@ -1,0 +1,22 @@
+#BlueJ class context
+comment0.target=PriorityQueueLinked
+comment0.text=\r\n\ Lab\ 7\ \r\n\ @author\ Julian\r\n
+comment1.params=
+comment1.target=PriorityQueueLinked()
+comment1.text=\r\n\ Constructor\ for\ PriorityQueueLinked\r\n
+comment2.params=
+comment2.target=boolean\ isEmpty()
+comment2.text=\r\n\ test\ whether\ the\ queue\ is\ empty\r\n\ @return\ true\ if\ the\ prioirty\ queue\ is\ empty,\ false\ otherwise\r\n
+comment3.params=
+comment3.target=java.lang.Object\ examine()
+comment3.text=\r\n\ examine\ the\ item\ at\ the\ front\ of\ the\ queue\ \r\n\ (the\ element\ with\ the\ highest\ priority\ that\ has\ been\ in\ the\ queue\ the\ longest)\r\n\ @return\ first\ item\r\n\ @exception\ Underflow\ if\ queue\ is\ empty\r\n
+comment4.params=
+comment4.target=java.lang.Object\ dequeue()
+comment4.text=\r\n\ remove\ the\ item\ at\ the\ front\ of\ the\ queue\ \r\n\ (the\ element\ with\ the\ highest\ priority\ that\ has\ been\ there\ the\ longest)\r\n\ @return\ removed\ item\r\n\ @exception\ Underflow\ if\ queue\ is\ empty\r\n
+comment5.params=e\ p
+comment5.target=void\ enqueue(java.lang.Object,\ int)
+comment5.text=\r\n\ insert\ an\ item\ at\ the\ back\ into\ the\ queue\ with\ a\ given\ priority\r\n\ @param\ e\ -\ item\ to\ insert,\ p\ -\ priority\ of\ element\r\n
+comment6.params=
+comment6.target=CITS2200.Iterator\ iterator()
+comment6.text=\r\n\ examine\ all\ the\ elements\ in\ the\ PriorityQueue\r\n\ @return\ an\ Iterator\ pointing\ to\ before\ the\ first\ item\ \ \ \ \r\n
+numComments=7
